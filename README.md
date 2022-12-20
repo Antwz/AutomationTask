@@ -15,6 +15,5 @@ To run tests in Docker do the following:
 1. Install Docker engine
 2. Run 'gradle clean test -Dconfig=docker'
 As a result tests should be executed inside docker image (starts automatically)
-![image](https://user-images.githubusercontent.com/18191661/208643157-4e127e95-aa13-43ed-adb1-50d03e61c6cb.png)
 Also after running tests in conainer a new recording will be saved in the root directory of the project
 ![image](https://user-images.githubusercontent.com/18191661/208643462-3d4bd7c5-2185-437c-94e9-ed232b8a7670.png)
